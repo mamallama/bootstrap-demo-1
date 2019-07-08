@@ -20,6 +20,36 @@ img {
 #cover-caption {
     width: 100%;
 }
+.section-content {
+    padding: 5rem 0;
+}
+
 .btn-group-sm>.btn, .btn-sm {
+    /* color: white; */
+}
+
+#about {
+    background: url(img/captmarvel2.png) no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0, 0, 0, 0);
+    color: black;
+    padding: 1.875rem;
+}
+
+/* pagination */
+
+.pagination {
+    justify-content: center;
+}
+
+/* footer */
+
+#footer-main {
+    background: #222;
     color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
 }
